@@ -11,10 +11,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  i=0 
-  while i<2 do
-  array.pop
-  i+=
+  2.times do
+    array.pop
   end
 end
 
