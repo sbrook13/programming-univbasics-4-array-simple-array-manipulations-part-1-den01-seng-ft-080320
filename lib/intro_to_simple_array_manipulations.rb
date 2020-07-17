@@ -1,3 +1,5 @@
+require "pry"
+
 def using_push(array, string)
  array.push(string)
 end
@@ -11,8 +13,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  2.times do
-    array.pop
+  new_array = [array.pop]
+  binding.pry
   end
 end
 
